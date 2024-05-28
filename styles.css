@@ -11,10 +11,51 @@ h1{
     height: 280px;
     width: auto;
     margin-top: -10px;
+    margin-left: 100px;
 }
 #laNut{
     height: 350px;
     width: auto;
     margin-left: 180px;
     margin-top: -50px;
+}
+.menu {
+    width: 80px;
+    height: 100vh;
+    border-radius: 6px;
+    border: 2px solid #000000;
+    background-color: #7fa657;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px;
+    border-bottom: 1px solid #6c3c0c;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    background-color: #7fa657;
+}
+
+img {
+    height: 50px;
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: 2px;
 }
